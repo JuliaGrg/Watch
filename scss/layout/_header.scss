@@ -1,0 +1,117 @@
+.header {
+
+  &__container {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: flex;
+    padding-top: 64px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 64px;
+    background-color: #F8F8F8;
+
+    @media screen and (min-width: $bp-tablet) {
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 104px;
+      padding-left: 133px;
+      padding-right: 133px;
+      padding-bottom: 168px;
+    }
+
+  }
+  
+  &__title {
+    margin-bottom: 53px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 24px;
+    }
+
+    
+  }
+  
+  &__subtitle {
+    margin-bottom:24px;
+    font-weight: 300;
+    font-size: 128px;
+    line-height: 250x;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 250px;
+      margin-bottom:43px;
+    }
+  }
+  
+  &__description {
+    margin-bottom: 34px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 32px;
+      margin-bottom: 61px;
+    }
+  }
+  
+  &__img {
+    min-width: 150px;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-left: 35px;
+      min-width: 200px;
+    }
+  }
+
+  &__price {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__watch-price {
+    background-color: #fff;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    font-size:20px;
+    font-weight: 300; 
+    line-height: 60px;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 143px;
+      height: 82px;
+      font-size: 32px;
+      line-height: 82px;
+    }
+  }
+
+  &__buy-watch-link {
+    display: block;
+    width: 188px;
+    height: 60px;
+    background-color: #161515;
+    color: #F8F8F8;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 300;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 278px;
+      height: 82px;
+      font-size: 32px;
+      line-height: 82px;
+    }
+  }
+}

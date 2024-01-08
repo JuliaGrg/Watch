@@ -1,0 +1,31 @@
+.sections {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__category {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 300;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-top: 43px;
+      font-size: 24px;
+    }
+  }
+  
+  &__title {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 84px;
+    font-weight: 400;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 72px;
+      margin-bottom: 84px;
+    }
+  }
+}
